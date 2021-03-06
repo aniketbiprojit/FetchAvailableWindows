@@ -13,6 +13,7 @@
 #include "main.h"
 #include "../Shared/common.h"
 
+
 HICON fetchIcon(LPWSTR module_name) {
 	TCHAR lpIconPath[MAX_PATH] = TEXT("<unknown>");
 	// HICON hIcon = ExtractAssociatedIcon(GetModuleHandle(module_name), lpIconPath,);

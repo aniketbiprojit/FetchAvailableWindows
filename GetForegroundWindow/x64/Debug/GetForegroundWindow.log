@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\aniket\work\fetchavailablewindows\getforegroundwindow\main.cpp(1): warning C4005: 'UNICODE': macro redefinition
+  c:\users\aniket\work\fetchavailablewindows\getforegroundwindow\main.cpp: note: see previous definition of 'UNICODE'
+  GetForegroundWindow.vcxproj -> C:\Users\Aniket\Work\FetchAvailableWindows\x64\Debug\GetForegroundWindow.exe
