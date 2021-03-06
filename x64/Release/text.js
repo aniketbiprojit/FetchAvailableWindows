@@ -10,7 +10,7 @@ async function run(binPath) {
 	const executableLocation =
 		binPath ||
 		path.join('C:\\Users\\Aniket Biprojit\\source\\repos\\ConsoleApplication1\\x64\\Release','GetForegroundWindow.exe'		);
-	setTimeout(async () => {
+	setInterval(async () => {
         try {
             
             const pyprocess = execFile(executableLocation);
@@ -23,7 +23,7 @@ async function run(binPath) {
         } catch (error) {
             console.error(error)
         }
-	}, );
+	}, 2000);
 	// data.platform = 'windows';
 	// data.name = data.name.toLowerCase();
 	// data.app = data.name;

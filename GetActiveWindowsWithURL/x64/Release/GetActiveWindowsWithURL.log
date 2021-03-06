@@ -3,8 +3,8 @@
 c:\users\aniket biprojit\source\repos\consoleapplication1\getactivewindowswithurl\main.cpp(1): warning C4005: 'UNICODE': macro redefinition
   c:\users\aniket biprojit\source\repos\consoleapplication1\getactivewindowswithurl\main.cpp: note: see previous definition of 'UNICODE'
   Generating code
-  10 of 313 functions ( 3.2%) were compiled, the rest were copied from previous compilation.
+  1 of 313 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    9 functions had inline decision re-evaluated but remain unchanged
+    2 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   GetActiveWindowsWithURL.vcxproj -> C:\Users\Aniket Biprojit\source\repos\ConsoleApplication1\x64\Release\GetActiveWindowsWithURL.exe

@@ -55,7 +55,7 @@ void getProcessInfo(HWND hWnd, std::vector<WindowDataClass>& windowTitles, bool 
 		auto wdc = WindowDataClass(title, pid, name, pathname);
 		if (name == L"chrome.exe") {
 			url = getUrl(hWnd);
-			if (single && url != L"") {
+			if (single) {
 				url = getChromeUrlSingle();
 			}
 			if (url != L"") {
