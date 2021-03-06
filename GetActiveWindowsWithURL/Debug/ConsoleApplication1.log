@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+c:\users\aniket biprojit\source\repos\consoleapplication1\consoleapplication1\consoleapplication1.cpp(1): warning C4005: 'UNICODE': macro redefinition
+  c:\users\aniket biprojit\source\repos\consoleapplication1\consoleapplication1\consoleapplication1.cpp: note: see previous definition of 'UNICODE'
+  ConsoleApplication1.vcxproj -> c:\users\aniket biprojit\source\repos\ConsoleApplication1\Debug\ConsoleApplication1.exe

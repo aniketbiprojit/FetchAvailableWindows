@@ -1,0 +1,5 @@
+﻿  ChromeURL.cpp
+c:\users\aniket biprojit\source\repos\consoleapplication1\consoleapplication1\chromeurl.cpp(1): warning C4005: 'UNICODE': macro redefinition
+  c:\users\aniket biprojit\source\repos\consoleapplication1\consoleapplication1\chromeurl.cpp: note: see previous definition of 'UNICODE'
+c:\users\aniket biprojit\source\repos\consoleapplication1\consoleapplication1\chromeurl.cpp(28): error C2065: 'hMod': undeclared identifier
+c:\users\aniket biprojit\source\repos\consoleapplication1\consoleapplication1\chromeurl.cpp(29): error C2065: 'hMod': undeclared identifier

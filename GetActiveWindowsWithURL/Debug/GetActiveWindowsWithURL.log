@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+c:\users\aniket biprojit\source\repos\consoleapplication1\getactivewindowswithurl\main.cpp(1): warning C4005: 'UNICODE': macro redefinition
+  c:\users\aniket biprojit\source\repos\consoleapplication1\getactivewindowswithurl\main.cpp: note: see previous definition of 'UNICODE'
+  Source.cpp
+  Generating Code...
+  GetActiveWindowsWithURL.vcxproj -> C:\Users\Aniket Biprojit\source\repos\ConsoleApplication1\Debug\GetActiveWindowsWithURL.exe
