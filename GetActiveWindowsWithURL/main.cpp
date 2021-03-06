@@ -33,7 +33,7 @@ int main()
 {
 	CoInitialize(NULL);
 	
-// getChromeUrl();
+    // getChromeUrl();
 	std::vector<WindowDataClass> windowTitles;
 
 	EnumWindows(enumWindowCallBack, reinterpret_cast<LPARAM>(&windowTitles));

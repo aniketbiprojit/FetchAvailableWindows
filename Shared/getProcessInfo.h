@@ -10,8 +10,9 @@
 #include <psapi.h>
 #include "getUrl.h"
 #include "WindowDataClass.h"
+#include "getChromeUrl.h"
 
-void getProcessInfo(HWND hWnd, std::vector<WindowDataClass>& windowTitles) {
+void getProcessInfo(HWND hWnd, std::vector<WindowDataClass>& windowTitles, bool single=false) {
 	TCHAR lpFilename[MAX_PATH] = TEXT("<unknown>");
 	TCHAR lpExeName[MAX_PATH] = TEXT("<unknown>");
 	TCHAR lpPathName[MAX_PATH] = TEXT("<unknown>");
@@ -54,6 +55,9 @@ void getProcessInfo(HWND hWnd, std::vector<WindowDataClass>& windowTitles) {
 		auto wdc = WindowDataClass(title, pid, name, pathname);
 		if (name == L"chrome.exe") {
 			url = getUrl(hWnd);
+			if (single && url != L"") {
+				url = getChromeUrlSingle();
+			}
 			if (url != L"") {
 				wdc.url = url;
 				wdc.browser = true;
