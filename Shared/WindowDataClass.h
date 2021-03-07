@@ -68,9 +68,15 @@ public:
 		std::cout.clear();
 		std::cout << std::endl << "  pathname:  \"" << pathname << "\"";;
 		std::cout.clear();
-		std::cout << std::endl << "  url:  \"" << url << "\"";
+		if (url == "null") {
+			std::cout << std::endl << "  url:  " << url;
+		}
+		else {
+			std::cout << std::endl << "  url:  \"" << url << "\"";
+
+		}
 		std::cout.clear();
-		std::cout << std::endl << "  browser:  \"" << (browser ? "true" : "false") << "\"";
+		std::cout << std::endl << "  browser:  " << (browser ? "true" : "false");
 		std::cout.clear();
 		std::cout << std::endl;
 		;

@@ -1,0 +1,23 @@
+{
+  "name": "FetchAvailableWindows",
+  "version": "1.0.0",
+  "description": "- [Releases](https://github.com/aniketbiprojit/FetchAvailableWindows/releases)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniketbiprojit/FetchAvailableWindows.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniketbiprojit/FetchAvailableWindows/issues"
+  },
+  "homepage": "https://github.com/aniketbiprojit/FetchAvailableWindows#readme",
+  "dependencies": {
+    "js-yaml": "^4.0.0"
+  }
+}

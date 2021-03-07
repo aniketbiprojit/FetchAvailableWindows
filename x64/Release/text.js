@@ -6,6 +6,8 @@ const { setTimeout } = require('timers')
 
 const execFile = promisify(childProcess.execFile)
 
+const yaml = require('js-yaml')
+
 async function run(binPath) {
 	const executableLocation = binPath || path.join(__dirname, 'GetForegroundWindow.exe')
 	setInterval(async () => {
@@ -14,7 +16,7 @@ async function run(binPath) {
 
 			const output = await pyprocess
 
-			let data = output.stdout.toString()
+			let data = yaml.load(output.stdout.toString())
 
 			console.log(data)
 		} catch (error) {

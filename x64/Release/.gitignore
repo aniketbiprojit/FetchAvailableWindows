@@ -1,0 +1,7 @@
+node_modules
+**/*.ipdb
+**/*.pdb
+**/*.iobj
+**/*.obj
+
+**/.vs/
