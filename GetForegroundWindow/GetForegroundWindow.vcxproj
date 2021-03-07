@@ -157,6 +157,9 @@
   <ItemGroup>
     <ClInclude Include="..\Shared\common.h" />
     <ClInclude Include="..\Shared\getChromeUrl.h" />
+    <ClInclude Include="..\Shared\getProcessInfo.h" />
+    <ClInclude Include="..\Shared\getUrl.h" />
+    <ClInclude Include="..\Shared\WindowDataClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

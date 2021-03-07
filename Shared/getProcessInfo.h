@@ -60,7 +60,7 @@ void getProcessInfo(HWND hWnd, std::vector<WindowDataClass>& windowTitles, bool 
 			}
 				
 			if (url != L"") {
-				wdc.url = url;
+				wdc.url = to_utf8(url);
 				wdc.browser = true;
 			}
 		}
