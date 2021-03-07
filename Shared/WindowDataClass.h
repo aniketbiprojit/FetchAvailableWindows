@@ -27,13 +27,13 @@ public:
 	}
 
 	void print_yaml() {
-		std::wcout << "\n- title: " << title
-			<< " \n  pid: " << pid
-			<< " \n  name:  " << name
-			<< " \n  pathname:  " << pathname
-			<< " \n  url:  " << url
-			<< " \n  browser:  " << (browser ? "true" : "false")
-			<< std::endl;
+		std::wcout << std::endl << "- title: \"" << title << "\"";
+		std::wcout << std::endl << "  pid: " << pid;
+		std::wcout << std::endl << "  name:  " << name;
+		std::wcout << std::endl << "  pathname:  " << pathname;
+		std::wcout << std::endl << "  url:  " << url;
+		std::wcout << std::endl << "  browser:  " << (browser ? "true" : "false");
+		std::wcout << std::endl;
 		;
 	}
 };
